@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 1em;
+}
+
+.red:hover {
+    background-color: #c60404;
+    color: #fff;
+}
+
+.green:hover {
+    background-color: #025602;
+    color: #fff;
+}
