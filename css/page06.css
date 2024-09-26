@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+#container {
+    height: 100vh;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
     margin-top: 1em;
 }
@@ -17,4 +21,12 @@ main {
 .green:hover {
     background-color: #025602;
     color: #fff;
+}
+
+#creditos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 }
